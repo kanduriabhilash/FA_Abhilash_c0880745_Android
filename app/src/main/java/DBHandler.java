@@ -152,5 +152,19 @@ public class DBHandler extends SQLiteOpenHelper {
         }
     }
 
+
+    // below is the method for deleting our course.
+    public void deleteCourse(String prodname) {
+
+        // on below line we are creating
+        // a variable to write our database.
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        // on below line we are calling a method to delete our
+        // course and we are comparing it with our course name.
+        db.delete(TABLE_NAME, "name=?", new String[]{prodname});
+        db.close();
+    }
+
 }
 

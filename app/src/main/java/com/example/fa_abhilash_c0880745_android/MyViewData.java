@@ -35,8 +35,6 @@ public class MyViewData extends AppCompatActivity {
 
 
 
-
-
     }
 
     private class prodmodel {
