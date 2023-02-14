@@ -76,10 +76,10 @@ public class prodAdapter extends RecyclerView.Adapter<prodAdapter.ViewHolder> {
                     Intent i = new Intent(context, Updateprod.class);
 
                     // below we are passing all our values.
-                    i.putExtra("ID", prodmodel.getprodid());
-                    i.putExtra("description", prodmodel.getCourseDescription());
-                    i.putExtra("duration", modal.getCourseDuration());
-                    i.putExtra("tracks", modal.getCourseTracks());
+                    i.putExtra("ID", prodmodel.getproduct1id());
+                    i.putExtra("description", prodmodel.getprodDescription());
+                    i.putExtra("name", prodmodel.getproductname());
+                    i.putExtra("price", prodmodel.getprodprice());
 
                     // starting our activity.
                     context.startActivity(i);

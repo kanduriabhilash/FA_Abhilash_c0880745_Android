@@ -7,6 +7,22 @@ public class prodmodel {
     private String productdescription;
     private String productprice;
 
+    public static boolean getproduct1id() {
+        return false;
+    }
+
+    public static boolean getprodDescription() {
+        return false;
+    }
+
+    public static boolean getproductname() {
+        return false;
+    }
+
+    public static boolean getprodprice() {
+        return false;
+    }
+
     // creating getter and setter methods
     public int getproductid() {
         return productid;
