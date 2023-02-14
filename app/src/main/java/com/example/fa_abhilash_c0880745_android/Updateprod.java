@@ -60,8 +60,7 @@ public class Updateprod extends AppCompatActivity {
     // adding on click listener for delete button to delete our course.
         deleteprod.setOnClickListener(new View.OnClickListener() {
         @Override
-        public void onClick(View Object v;
-        v) {
+        public void onClick(View  v) {
             // calling a method to delete our course.
             dbHandler.deleteprod(prodname);
             Toast.makeText(Updateprod.this, "Deleted the course", Toast.LENGTH_SHORT).show();
